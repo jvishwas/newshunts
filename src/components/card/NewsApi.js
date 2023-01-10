@@ -26,7 +26,7 @@ export default function NewsApi() {
     <>
       <div className="container-fluid">
         <h1 className="text-center bg-info py-4 " id="heading_style">
-          News Headlines{" "}
+          New News Headlines{" "}
         </h1>
         <h2 onClick={fetchData} className="bg-info py-2">
           Top's news Heading
