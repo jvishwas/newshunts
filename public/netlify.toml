@@ -1,0 +1,10 @@
+[[redirects]]
+  from = "/newsapi"
+  to = "https://newsapi.org/v2/top-headlines?country=in&apiKey=15efb47d0fb04571a7887b7d1cc1bb10"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
