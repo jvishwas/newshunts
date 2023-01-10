@@ -9,7 +9,7 @@ export default function NewsApi() {
   const fetchData = () => {
     // let url='https://newsapi.org/v2/top-headlines?country=in&apiKey=15efb47d0fb04571a7887b7d1cc1bb10'
     let url =
-      "https://newshunts.netlify.app/newsapi";
+      "https://dailynewshunts.netlify.app/newsapi";
     fetch(url)
       .then((res) => res.json())
       .then((jsondata) => {
